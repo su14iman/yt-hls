@@ -1,4 +1,4 @@
-# YouTube Live ID - HLS Stream Extractor
+# Youtube HLS Server - HLS Stream Extractor
 
 A Node.js server that extracts the best possible HLS (m3u8) streaming URLs from YouTube Live streams using yt-dlp. Perfect for IPTV applications, media players, and streaming integrations.
 
@@ -18,15 +18,15 @@ A Node.js server that extracts the best possible HLS (m3u8) streaming URLs from 
 
 ```bash
 # Clone the repository
-git clone https://github.com/su14iman/yt-hls.git
-cd yt-hls
+git clone https://github.com/su14iman/yt-hls-server.git
+cd yt-hls-server
 
 # Start with docker-compose
 docker-compose up -d
 
 # Or build and run manually
-docker build -t yt-hls .
-docker run -p 8000:8000 yt-hls
+docker build -t yt-hls-server .
+docker run -p 8000:8000 yt-hls-server
 ```
 
 ### Local Development

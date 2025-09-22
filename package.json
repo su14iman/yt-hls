@@ -1,5 +1,5 @@
 {
-  "name": "@su14iman/yt-hls",
+  "name": "@su14iman/yt-hls-server",
   "version": "1.0.0",
   "description": "A simple Express server to fetch YouTube live stream ID using yt-dlp.",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "author": "Sulaiman Sulaiman <s.su14iman@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/su14iman/yt-hls.git"
+    "url": "git+https://github.com/su14iman/yt-hls-server.git"
   },
   "license": "MIT",
   "type": "commonjs",
