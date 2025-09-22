@@ -2,7 +2,7 @@ name: Build & Publish to Docker Hub
 
 on:
   push:
-    branches: ["main"]
+    # branches: ["main"]
     tags: ["v*.*.*"]
   workflow_dispatch:
 

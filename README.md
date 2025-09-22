@@ -17,11 +17,13 @@ A Node.js server that extracts the best possible HLS (m3u8) streaming URLs from 
 ### Using Docker (Recommended)
 
 ```bash
-# Clone the repository
+# Using pre-built image (recommended)
+docker pull su14iman/yt-hls-server:latest
+docker run -p 8000:8000 -e TZ=Europe/Berlin su14iman/yt-hls-server:latest
+
+# Or clone and use docker-compose
 git clone https://github.com/su14iman/yt-hls-server.git
 cd yt-hls-server
-
-# Start with docker-compose
 docker-compose up -d
 
 # Or build and run manually
