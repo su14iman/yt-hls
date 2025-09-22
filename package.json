@@ -1,0 +1,17 @@
+{
+  "name": "@su14iman/yt-hls",
+  "version": "1.0.0",
+  "description": "A simple Express server to fetch YouTube live stream ID using yt-dlp.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Sulaiman Sulaiman <s.su14iman@gmail.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "yt-dlp-exec": "^1.0.2"
+  }
+}

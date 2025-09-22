@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  yt-hls:
+    build: .
+    container_name: yt-hls
+    environment:
+      - PORT=8000
+      - TZ=Europe/Berlin
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
