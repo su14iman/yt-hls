@@ -8,6 +8,10 @@
   },
   "keywords": [],
   "author": "Sulaiman Sulaiman <s.su14iman@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/su14iman/yt-hls.git"
+  },
   "license": "MIT",
   "type": "commonjs",
   "dependencies": {
